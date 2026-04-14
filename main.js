@@ -19,10 +19,10 @@ const subjectConfig = {
     icon: "⚛️",
     locked: false,
     parts: [
-      { name: "Phần 1", link: "" },
-      { name: "Phần 2", link: "" },
+      { name: "Phần 1", link: "https://azota.vn/de-thi/9fxegp" },
+      { name: "Phần 2", link: "https://azota.vn/de-thi/dyeom9" },
       { name: "Phần 3", link: "" },
-      { name: "Phần 1+2", link: "" },
+      { name: "Phần 1+2", link: "https://azota.vn/de-thi/6n2w4b" },
       { name: "FULL ĐỀ", link: "" },
     ],
   },
