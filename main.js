@@ -9,8 +9,8 @@ const subjectConfig = {
     parts: [
       { name: "Phần 1", link: "https://azota.vn/de-thi/olkvwx" },
       { name: "Phần 2", link: "https://azota.vn/de-thi/6he5kr" },
-      { name: "Phần 3", link: "" },
-      { name: "Phần 1+2", link: "" },
+      { name: "Phần 3", link: "https://azota.vn/de-thi/vvezgi" },
+      { name: "Phần 1+2", link: "https://azota.vn/de-thi/zzzozd" },
       { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/pmy9so" },
     ],
   },
