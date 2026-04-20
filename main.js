@@ -5,13 +5,13 @@ const subjectConfig = {
   Toán: {
     name: "Toán học",
     icon: "📐",
-    locked: true,
+    locked: false,
     parts: [
-      { name: "Phần 1", link: "" },
-      { name: "Phần 2", link: "" },
+      { name: "Phần 1", link: "https://azota.vn/de-thi/olkvwx" },
+      { name: "Phần 2", link: "https://azota.vn/de-thi/6he5kr" },
       { name: "Phần 3", link: "" },
       { name: "Phần 1+2", link: "" },
-      { name: "FULL ĐỀ", link: "" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/pmy9so" },
     ],
   },
   "Vật Lý": {
@@ -21,9 +21,9 @@ const subjectConfig = {
     parts: [
       { name: "Phần 1", link: "https://azota.vn/de-thi/9fxegp" },
       { name: "Phần 2", link: "https://azota.vn/de-thi/dyeom9" },
-      { name: "Phần 3", link: "" },
-      { name: "Phần 1+2", link: "https://azota.vn/de-thi/6n2w4b" },
-      { name: "FULL ĐỀ", link: "" },
+      { name: "Phần 3", link: "https://azota.vn/de-thi/vvezgi" },
+      { name: "Phần 1+2", link: "https://azota.vn/de-thi/zzzozd" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/6n2w4b" },
     ],
   },
   "Hóa Học": {
@@ -63,9 +63,9 @@ const subjectConfig = {
   "GDKT & PL": {
     name: "GDKT & Pháp luật",
     icon: "⚖️",
-    locked: true,
+    locked: false,
     parts: [
-      { name: "Phần 1", link: "" },
+      { name: "Phần 1", link: "https://azota.vn/de-thi/8urdd8" },
       { name: "Phần 2", link: "" },
       { name: "FULL ĐỀ", link: "" },
     ],
