@@ -21,9 +21,9 @@ const subjectConfig = {
     parts: [
       { name: "Phần 1", link: "https://azota.vn/de-thi/9fxegp" },
       { name: "Phần 2", link: "https://azota.vn/de-thi/dyeom9" },
-      { name: "Phần 3", link: "" },
-      { name: "Phần 1+2", link: "" },
-      { name: "FULL ĐỀ", link: "" },
+      { name: "Phần 3", link: "https://azota.vn/de-thi/mxfloa" },
+      { name: "Phần 1+2", link: "https://azota.vn/de-thi/6n2w4b" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/lloaox" },
     ],
   },
   "Hóa Học": {
@@ -66,8 +66,18 @@ const subjectConfig = {
     locked: false,
     parts: [
       { name: "Phần 1", link: "https://azota.vn/de-thi/8urdd8" },
-      { name: "Phần 2", link: "" },
-      { name: "FULL ĐỀ", link: "" },
+      { name: "Phần 2", link: "https://azota.vn/de-thi/ui8yw7" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/o5cug3" },
+    ],
+  },
+  "Ngữ Văn": {
+    name: "Ngữ văn",
+    icon: "📚",
+    locked: false,
+    parts: [
+      { name: "Ngữ liệu 1", link: "https://azota.vn/de-thi/qwxw7d" },
+      { name: "Ngữ liệu 2", link: "https://azota.vn/de-thi/psz6pp" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/kdg4vy" },
     ],
   },
 };
