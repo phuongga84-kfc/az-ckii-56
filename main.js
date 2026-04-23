@@ -41,13 +41,13 @@ const subjectConfig = {
   "Địa Lý": {
     name: "Địa lý",
     icon: "🌍",
-    locked: true,
+    locked: false,
     parts: [
-      { name: "Phần 1", link: "" },
-      { name: "Phần 2", link: "" },
-      { name: "Phần 3", link: "" },
-      { name: "Phần 1+2", link: "" },
-      { name: "FULL ĐỀ", link: "" },
+      { name: "Phần 1", link: "https://azota.vn/de-thi/yh0vqa" },
+      { name: "Phần 2", link: "https://azota.vn/de-thi/hrsolz" },
+      { name: "Phần 3", link: "https://azota.vn/de-thi/yosslp" },
+      { name: "Phần 1+2", link: "https://azota.vn/de-thi/y86ypv" },
+      { name: "FULL ĐỀ", link: "https://azota.vn/de-thi/owppzu" },
     ],
   },
   "Lịch Sử": {
