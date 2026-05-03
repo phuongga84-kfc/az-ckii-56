@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Link Azota Ôn Tập CK2</title>
+    <style>
+        /* Reset cơ bản */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container chứa nội dung, tối ưu cho mobile */
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px; /* Giới hạn chiều rộng để trông đẹp trên cả web và điện thoại */
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Bố cục 1 cột cho các nút */
+        .link-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Khoảng cách giữa các nút */
+        }
+
+        /* Style mặc định cho các nút đã có link */
+        .subject-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 12px;
+            /* Gradient tím - xanh hiện đại */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* Hiệu ứng khi chạm/hover vào nút */
+        .subject-btn:hover {
+            box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .subject-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Style cho trạng thái khóa (chưa có link) */
+        .subject-btn.locked {
+            background: #e4e6eb;
+            color: #8c939d;
+            cursor: not-allowed;
+            pointer-events: none; /* Chặn hành động click */
+            box-shadow: none;
+        }
+
+        /* Thẻ tag hiển thị trạng thái */
+        .status {
+            font-size: 0.9rem;
+            font-weight: 400;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        .locked .status {
+            background: #d8dadf;
+            color: #606770;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Link Azota CK2</h1>
+        
+        <div class="link-group">
+            <!-- <a href="https://azota.vn/de-thi/pmy9so" target="_blank" class="subject-btn">
+                Toán <span class="status">Vào thi</span>
+            </a>
+            
+            <a href="https://azota.vn/de-thi/lloaox" target="_blank" class="subject-btn">
+                Vật Lý <span class="status">Vào thi</span>
+            </a>
+            
+            <a href="https://azota.vn/de-thi/2frgbj" target="_blank" class="subject-btn">
+                Hóa Học <span class="status">Vào thi</span>
+            </a> -->
+            
+            <a href="https://azota.vn/de-thi/kosj4z" target="_blank" class="subject-btn">
+                GDCD <span class="status">Vào thi</span>
+            </a>
+            
+            <a href="https://azota.vn/de-thi/7i435q" target="_blank" class="subject-btn">
+                Lịch Sử <span class="status">Vào thi</span>
+            </a>
+            
+            <!-- <a href="https://azota.vn/de-thi/owppzu" target="_blank" class="subject-btn">
+                Địa Lý <span class="status">Vào thi</span>
+            </a>
+            
+            <a href="https://azota.vn/de-thi/kdg4vy" target="_blank" class="subject-btn">
+                Ngữ Văn <span class="status">Vào thi</span> -->
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
